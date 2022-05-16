@@ -1,1 +1,29 @@
-theme: jekyll-theme-slate
+title: 0xSR42
+url: https://0xsr42.github.io
+baseurl: /
+timezone: Asia/Kolkata
+
+header_pages:
+  - about.markdown
+  - notes/notes-on-economics.markdown
+  - notes/notes-on-governance.markdown
+  - notes/vision-for-subcontinent.markdown
+
+remote_theme: jekyll/minima
+minima:
+  skin: dark
+  social_links:
+    twitter: 0xSR42
+    github: 0xSR42
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
